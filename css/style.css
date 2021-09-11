@@ -1,0 +1,50 @@
+body {
+	background-color: #ebf0f5;
+	color: #3f3f3f;
+}
+
+.form-control,
+.btn{
+	border-radius: 30px;
+	margin-bottom: 10px;
+}
+
+.social {
+	font-weight: 500;
+	color: white;
+}
+
+.social:hover {
+	opacity: 0.8;
+	color: white;
+}
+.bg-img {
+	margin-left: -15px;
+	border-radius: 100px;
+}
+
+form {
+	margin: 90px 100px;
+}
+
+.sign-up .form-control,
+.sign-up .btn {
+	border-radius: 30px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.small_text {
+	padding-left: 0px;
+	color: #98a6a9;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.container {
+	height: auto;
+	width: auto;
+	border-radius: 10px;
+	margin-bottom: -5px;
+	padding: 0px 0px 0px 0px;
+}

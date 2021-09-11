@@ -1,0 +1,61 @@
+a{
+    color: grey;
+}
+a:hover {
+    color: #3f3f3f;
+    text-decoration: none;
+}
+h2,
+h5 {
+    position: relative;
+    top: -210px;
+    left: 50px;
+    color: #3f3f3f;
+}
+.options li {
+    display: inline-block;
+    width: 150px;
+}
+.img-container
+{
+    overflow: hidden;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.img-container img
+{
+    height: 100vh;
+    width: 100%;
+}
+.dp-container
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 7px solid white;
+    border-radius: 100px;
+    top: -100px;
+}
+.dp-container img
+{
+    width: 150px;
+    height: 138px;
+    border-radius: 150px;
+}
+.nav-options
+{
+    position: relative;
+    top: -150px;
+}
+.navbar-brand
+{
+    font-weight: 900;
+    font-size: 32px;
+}
+.dropdown-toggle::after {
+    content: none;
+}
